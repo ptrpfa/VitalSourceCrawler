@@ -81,6 +81,11 @@ incoming_email = 'recipient@gmail.com'  # Incoming email address
 ```bash
 python3 crawler.py
 ```
+##### 4) Run program to combine exported images into a single PDF
+
+```bash
+python3 combine.py
+```
 
 ###### When running, the program's output should look something like this:
 
@@ -103,3 +108,8 @@ Depending on the total number of pages in the book to crawl, it may take a while
 ###### # 2 Saved book
 
 This program outputs each page of your book into a sizable PNG image. As such, the images may take up some space on your computer. Additionally, there are currently no in-built functions to export the downloaded PNG images into a PDF file. However, you can easily find PNG to PDF converters online or even build your own one!
+
+###### # 3 Exported PDF
+
+The combine.py program may be limited by PIL on the number of images that it can combine and export into a single PDF file.
+As such, you may choose to export your images into multiple PDFs and combine them into a single PDF in the end.
