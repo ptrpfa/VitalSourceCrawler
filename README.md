@@ -81,15 +81,16 @@ incoming_email = 'recipient@gmail.com'  # Incoming email address
 ```bash
 python3 crawler.py
 ```
+
+###### When running, the program's output should look something like this:
+
+![Example of Program Run](docs/program-run.png)
+
 ##### 4) Run program to combine exported images into a single PDF
 
 ```bash
 python3 combine.py
 ```
-
-###### When running, the program's output should look something like this:
-
-![Example of Program Run](docs/program-run.png)
 ---
 ##### Known issues
 
