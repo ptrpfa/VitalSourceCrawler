@@ -108,7 +108,7 @@ Depending on the total number of pages in the book to crawl, it may take a while
 
 ###### # 2 Saved book
 
-This program outputs each page of your book into a sizable PNG image. As such, the images may take up some space on your computer. Additionally, there are currently no in-built functions to export the downloaded PNG images into a PDF file. However, you can easily find PNG to PDF converters online or even build your own one!
+This program outputs each page of your book into a sizable PNG image. As such, the images may take up some space on your computer. 
 
 ###### # 3 Exported PDF
 
